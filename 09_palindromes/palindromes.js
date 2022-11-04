@@ -35,7 +35,7 @@ const palindromes = function (input) {
     // if array length is odd
     else {
         // looping through all pairs of mirroring characters
-        for (i = 0; i < (((array.length - 1) / 2) - 1); i++) {
+        for (i = 0; i < ((array.length - 1) / 2 - 1); i++) {
             // comparing mirroring characters
             if (array[i] !== array[array.length - (i + 1)]) {
                 return false;
